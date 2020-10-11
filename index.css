@@ -1,0 +1,56 @@
+/* All CSS */
+body {
+    font: 15px arial, sans-serif;
+    background-color: rgba(153, 153, 153, 0.247);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#bodybox {
+    margin: auto;
+    max-width: 850px;
+    font: 15px arial, sans-serif;
+    background-color: rgba(66, 75, 145, 0.733);
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
+    border-radius: 15px;
+}
+
+#chatborder {
+    border-style: solid;
+    background-color: rgba(121, 121, 209, 0.411);
+    border-width: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+
+.chatlog {
+    font: 15px arial, sans-serif;
+}
+
+#chatbox {
+    font: 17px arial, sans-serif;
+    height: 30px;
+    width: 100%;
+}
+
+h1 {
+    margin: auto;
+}
+
+pre {
+    background-color: #f0f0f0;
+    margin-left: 20px;
+}
