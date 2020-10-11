@@ -81,7 +81,7 @@ function newEntry() {
         }
         else if (counter == 5) {
             setTimeout(function () {
-                botMessage = "Sorry couldnt understand message";
+                botMessage = "Sorry could not understand message";
                 messages.push("<b>" + botName + ":</b> " + botMessage);
                 console.log("Success!");
                 Speech(botMessage);
