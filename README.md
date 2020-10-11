@@ -2,9 +2,11 @@
 
 IPL FAQ chatbot made using AWS Lex.
 
-<p style="text-align: center">
+<center>
+<p>
 <img src="https://www.insidesport.co/wp-content/uploads/2020/08/IPL-2020-BCCI.jpg" alt="IPL" width="350px">
 </p>
+</center>
 
 ## What it is
 A bot that generates a response based on multiple previous utterances as well as user’s queries to respond in a relevant and sensible manner. The bot also performs a long form of FAQ for various queries which we curated using the given dataset.

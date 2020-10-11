@@ -54,3 +54,19 @@ pre {
     background-color: #f0f0f0;
     margin-left: 20px;
 }
+
+.white-text {
+    color: white;
+}
+
+.btn-lex {
+    background: blue;
+    color: white;
+    border: 1px solid blue;
+}
+
+.btn-lex:hover {
+    background: transparent;
+    color: blue;
+    border: 1px solid blue;
+}
