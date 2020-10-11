@@ -137,10 +137,10 @@ def create_item(message: Message):
                 result = app.qa(context=context,  question=text)
                 message = result['answer']               
             else:
-                message = "Couldnt get the answer"
+                message = "Could not get the answer"
 
 
     else:
-        message = "Sorry couldnt understand message"
+        message = "Sorry, could not understand your message!"
 
     return {'message': message}
