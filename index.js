@@ -14,18 +14,17 @@ function newEntry() {
             text: lastUserMessage,
         };
         var xhr = new XMLHttpRequest();
-        xhr.open(
-            "POST",
-            "http://716234c3c24d.ngrok.io/message",
-            true
-        );
-        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.open("POST", "http://716234c3c24d.ngrok.io/message");
         xhr.send(JSON.stringify(text));
         xhr.onload = function () {
+            console.log(this.responseText);
             if (this.status == 200) {
-                botMessage = this.responseText;
-                messages.push("<b>" + botName + ":</b> " + botMessage);
                 console.log("Success!");
+                console.log(this.responseText);
+                botMessage1 = JSON.parse(this.responseText);
+                console.log(botMessage1);
+                botMessage = botMessage1.message;
+                messages.push("<b>" + botName + ":</b> " + botMessage);
                 Speech(botMessage);
                 for (var i = 1; i < 8; i++) {
                     if (messages[messages.length - i])
@@ -33,9 +32,11 @@ function newEntry() {
                 }
             }
             if (this.status == 400) {
+                console.log(this.responseText);
                 console.log("400!");
             }
             else {
+                console.log(this.responseText);
                 console.log("Error");
             }
         }
