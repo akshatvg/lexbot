@@ -14,7 +14,7 @@ function newEntry() {
             text: lastUserMessage,
         };
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "http://716234c3c24d.ngrok.io/message");
+        xhr.open("POST", "https://716234c3c24d.ngrok.io/message");
         xhr.send(JSON.stringify(text));
         xhr.onload = function () {
             console.log(this.responseText);
