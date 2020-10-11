@@ -3,7 +3,7 @@ import pandas as pd
 from onnx_transformers import pipeline
 
 client = boto3.client('lex-runtime')
-df = pd.read_csv('../revised.csv')
+df = pd.read_csv('./revised.csv')
 
 def get_context(data):
   
