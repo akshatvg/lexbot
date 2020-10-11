@@ -30,8 +30,8 @@ The whole backend is deployed on FastAPI which gives performance at par with Gol
 - Prove your friends wrong about a fact only you remember, within seconds.
 
 ## Demo links
-- [Video Demo](https://youtu.be/zLBiUUxXKps)
-- [Deployed Link](https://iplbot.akshatvg.com/bot)
+- [Video Demo](https://youtu.be/zLBiUUxXKps) [The bot itself won't work due to mixed content error by ngrok so please run it locally for now].
+- [Deployed Link](https://iplbot.akshatvg.com/bot).
 
 ## Steps to run (Backend):
 ```bash
@@ -51,7 +51,8 @@ $ git clone https://github.com/ramaneswaran/lexbot
 $ cd lexbot
 $ live-server
 ```
-Then navigate to /bot.
+Install the chrome extension for CORS Changing [here](https://chrome.google.com/webstore/detail/digfbfaphojjndkpccljibejjbppifbc) and enable it.
+
 
 ## Learn how to use
 - Open the site locally as mentioned above or visit [this link](https://iplbot.akshatvg.com/bot).
@@ -59,4 +60,5 @@ Then navigate to /bot.
 - Wait for less than a second to receive a followup to your query or the answer itself (in both voice and text formats).
 
 ## Future scope
-We intend to make this chatbot available on Twitch and other supported vendors soon while also adding more complex queries with an even faster response.
+- We intend to make this chatbot available on Twitch and other supported vendors soon while also adding more complex queries with an even faster response.
+- *We need to deploy the backend on a SSL verified domain as ngrok gives a mixed content error because it serves on http.*
