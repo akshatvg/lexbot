@@ -21,7 +21,7 @@ jmespath==0.10.0
 joblib==0.17.0
 Keras-Preprocessing==1.1.2
 Markdown==3.3
-numpy==1.18.5
+numpy==1.22.0rc1
 oauthlib==3.1.0
 onnx==1.7.0
 onnx-transformers @ git+https://github.com/patil-suraj/onnx_transformers@463dcfc9b7d037dedd85b1637fe44eeb58f4a5a3
